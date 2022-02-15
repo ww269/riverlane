@@ -14,9 +14,9 @@ use App\Http\Controllers\QuantumCircuitController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 
-Route::get('/', [QuantumCircuitController::class, 'index']);
+Route::get('/riverlane', [QuantumCircuitController::class, 'index']);
